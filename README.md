@@ -39,9 +39,6 @@ fwupdmgr update
 * Fedora doesn't include all non-free flatpaks by default. In-case you forgot to check the "Enable Third Party Repositories" option on initial boot, the command below enables access to all the flathub flatpaks. 
 * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 
-* Fedora doesn't enable Flatpak user-home installation by default, to enable it run:
-* `flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-
 ## AppImage
 
 * For Appimage support install fuse:
